@@ -17,6 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/blade', 'MainController@index') -> name('blade');
+Route::get('/home', 'MainController@index') -> name('blade');
 Route::get('/blog', 'MainController@index2') -> name('blade2'); //mi sono dimenticato il senso del name qui
 Route::get('/about', 'MainController@index3') -> name('blade2');
